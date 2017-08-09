@@ -4,7 +4,6 @@ from sklearn.svm import LinearSVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.externals import joblib
 from sklearn.decomposition import PCA
-import argparse as ap
 import glob
 import os
 import numpy as np

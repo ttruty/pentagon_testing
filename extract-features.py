@@ -8,9 +8,6 @@ import glob
 import os, cv2
 import numpy as np
 
-
-STANDARD_SIZE = (32, 32)
-
 if __name__ == "__main__":
     path = r'C:\Users\KinectProcessing\Desktop\training_mmse_pentagons'
     pos_im_path = os.path.join(path, 'pos_pent')
@@ -18,10 +15,6 @@ if __name__ == "__main__":
     pos_feat_ph = os.path.join(path, "pos_feat_ph")
     neg_feat_ph = os.path.join(path, "neg_feat_ph")
 
-    
-
-    min_wdw_sz = (100, 40)
-    step_size = (10, 10)
     orientations = 9
     pixels_per_cell = (8, 8)
     cells_per_block = (3, 3)
